@@ -1,0 +1,58 @@
+.upload-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .rule-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+
+    h4 {
+      margin: 0 0 10px;
+    }
+
+    .sub-rule {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+
+      p-dropdown,
+      p-inputText {
+        flex: 1;
+      }
+    }
+  }
+}
+.left-align {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; // Aligns buttons to the left
+  gap: 10px; // Space between the buttons
+  margin-top: 10px; // Optional: Adds some space above the buttons
+}
+
+.remove-rule-button {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
